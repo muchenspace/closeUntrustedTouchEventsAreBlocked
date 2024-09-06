@@ -6,6 +6,6 @@
 ## 原理
 hook InputDispatcher::isTouchTrustedLocked(这是判断是否安卓系统判断是否屏蔽触摸的),使其一直返回true
 ## 使用
-./Inject -n system_server -so ./hookInput.so
+./Inject -n system_server -so so的绝对路径
 <br>
 注入器来自鸿清
