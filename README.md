@@ -8,5 +8,5 @@ hook InputDispatcher::isTouchTrustedLocked(这是判断是否安卓系统判断�
 ## 使用
 执行启动.sh
 <br>
-注入器来自鸿清
+## 关于
 [注入器来自鸿清](https://github.com/SsageParuders/AndroidPtraceInject)
