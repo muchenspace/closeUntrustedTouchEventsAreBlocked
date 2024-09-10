@@ -18,6 +18,7 @@ project(hookInput)
 include_directories(
         ./include
         ./include/dobby
+        ./include/util
 )
 
 link_directories(libs/arm64-v8a)
