@@ -11,4 +11,4 @@ hook InputDispatcher::isTouchTrustedLocked(这是安卓系统判断是否屏蔽�
 ## 关于
 [注入器来自鸿清](https://github.com/SsageParuders/AndroidPtraceInject)
 <br>
-InputDispatcher::isTouchTrustedLocked的导出符号并不固定，这个方法在libinputflinger.so里，如果不能使用请手动查找导出符号
+InputDispatcher::isTouchTrustedLocked的导出符号部分机型可能发送改变(极小概率，只要oem不动这部分代码一般都不会变)，这个方法在libinputflinger.so里，如果不能使用请手动查找导出符号
